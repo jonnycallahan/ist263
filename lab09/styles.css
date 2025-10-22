@@ -18,5 +18,5 @@ nav {margin-bottom: 30px;}
 .contactflex4 {padding: 60px;}
 .contactflex5 {padding: 60px;}
 .firstrow {display: flex;}
-.skillstable table {margin: 0 auto;}
-.skillsimage {text-align: center;}
+.skillstable {margin: 0 auto; flex-basis: 50%;}
+.skillsimage {text-align: center; flex-basis: 50%;}
