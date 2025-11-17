@@ -9,7 +9,7 @@
           nav {background-color: gray;}
           nav a {color: black;}
           a:hover {color: lightgray;}
-          h1 {background-color: grey; }
+          h1 {background-color: #808080; padding: 16px; color: #FFFFFF;}
           body {background-color: #F5FAFF; font-family: Verdana, Geneva, Tahoma, sans-serif; color: #0A1A2F;}
           .flexcontainer {display: flex; margin: 10px;}
           img {width: 150px;}
@@ -17,13 +17,17 @@
           .indivflex1, .indivflex2, .indivflex3 {padding: 10px;}
           .indivflex4, .indivflex5 {padding: 20px;}
           h2 {font-size: 1em;}
+          @media only screen and (max-width: 768px) {
+            nav a {width: 100%; display: block; padding: 5px 0 5px 0;}
+            nav span {display: none;}
+          }
           
 
         </style>
 
     </head>
     <body>
-        <nav><a href="index.html">Home</a> | <a href="teamawards.html">Team Awards</a> | <a href="indivawards.html">Individual Awards</a></nav>
+        <nav><a href="index.html">Home</a><span> | </span><a href="teamawards.html">Team Awards</a><span> | </span><a href="indivawards.html">Individual Awards</a></nav>
     <main>
         <h1>Individual Awards</h1>
         <p>These awards recognize the top individual players in different categories.</p>
