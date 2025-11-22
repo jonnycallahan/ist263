@@ -5,12 +5,11 @@ h2 {color: #001D4F;}
 p {color: #001D4F;}
 a {color: #4EBCFF;}
 a:hover {color: #001D4F;}
-nav {background-color: #001D4F;}
+nav {background-color: #001D4F; color: #FFFFFF;}
 nav a {color: #FFFFFF;}
 nav a:hover {color:#4EBCFF;}
 nav {padding: 10px;}
 nav {margin-bottom: 30px;}
-nav span {color: #FFFFFF;}
 .quote {float: right;}
 .contactflex1 {display: flex; background-color: lightgray; margin: 20px; border-radius: 1em;}
 .contactflex2 {padding: 10px;}
