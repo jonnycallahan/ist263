@@ -1,7 +1,7 @@
-nav {background-color: gray; padding: .75em;}
-nav a {color: black; padding: 10px 20px;}
+nav {background-color: #313030; padding: .75em; color: #FFFFFF;}
+nav a {color: #FFFFFF; padding: 10px 20px;}
 a:hover {color: lightgray;}
-h1 {background-color: #808080; padding: 16px; color: #FFFFFF; text-align: center;}
+h1 {background-color: #313030; padding: 16px; color: #FFFFFF; text-align: center;}
 .nhllogo {width: 100px; display: block; margin: 0 auto;}
 @media only screen and (max-width: 768px) {
     nav a {width: 100%; display: block; padding: 10px 0 10px 0;}
