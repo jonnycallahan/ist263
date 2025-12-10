@@ -3,35 +3,25 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="project.css">
         <title>Welcome</title>
         <style>
-            nav {background-color: gray; padding: .75em;}
-            nav a {color: black;}
-            a:hover {color: lightgray;}
-            h1 {background-color: #808080; padding: 16px; color: #FFFFFF; text-align: center;}
-            .nhllogo {width: 100px;}
-            @media only screen and (max-width: 768px) {
-            nav a {width: 100%; display: block; padding: 5px 0 5px 0;}
-            nav span {display: none;}
-            }
-            body {
-                background-color: #F5FAFF; font-family: Verdana, Geneva, Tahoma, sans-serif; color: #0A1A2F;
-            }
-            .home-flex {display: flex;}
+
         </style>
         <link rel="shortcut icon" type="image/x-icon" href="../project/media/favicon.ico">
 
     </head>
     <body>
+        <a href="#main" class="skip">Skip to main content</a>
         <nav><a href="index.html">Home</a><span> | </span><a href="teamawards.html">Team Awards</a><span> | </span> <a href="indivawards.html">Individual Awards</a></nav>
-        <main>
+        <main id="main">
         <h1>Welcome to the NHL Awards Hub!</h1>
         <img src="../project/media/new-nhl-logo.png.png" alt="nhl" class="nhllogo">
 
-        <p>This website highlights recent NHL awards, who received them, and what each award stands for.  
+        <p class="pagecap">This website highlights recent NHL awards, who received them, and what each award stands for.  
   The awards honor both teams and individual players each season.</p>
   <div class="home-flex">
-    <div><h2>Team Awards</h2>
+    <div class="awardcard"><h2>Team Awards</h2>
   <ul>
     <li>Stanley Cup</li>
     <li>Presidents Cup</li>
@@ -39,7 +29,7 @@
     <li>Clarence Campbell Bowl</li>
 
   </ul></div>
-    <div><h2>Individual Awards</h2>
+    <div class="awardcard"><h2>Individual Awards</h2>
   <ul>
     <li>Hart Memorial Trophy</li>
     <li>Vezina Trophy</li>

@@ -1,0 +1,47 @@
+nav {background-color: gray; padding: .75em;}
+nav a {color: black; padding: 10px 20px;}
+a:hover {color: lightgray;}
+h1 {background-color: #808080; padding: 16px; color: #FFFFFF; text-align: center;}
+.nhllogo {width: 100px; display: block; margin: 0 auto;}
+@media only screen and (max-width: 768px) {
+    nav a {width: 100%; display: block; padding: 10px 0 10px 0;}
+    nav span {display: none;}
+}
+body {
+    background-color: #F5FAFF; font-family: Verdana, Geneva, Tahoma, sans-serif; color: #0A1A2F;
+}
+.home-flex {display: flex; justify-content: center; text-align: center; flex-wrap: wrap;}
+.flexcontainer, .flexcontainer2 {display: flex; margin: 10px; text-align: center; flex-wrap: wrap; justify-content: center;}
+.indivimg {width: 180px; height: 220px; object-fit: contain; display: block; margin: 0 auto 10px; }
+.indivflex1, .indivflex2, .indivflex3 {padding: 10px;}
+.indivflex4, .indivflex5 {padding: 20px;}
+h2 {font-size: 1em;}
+.teamflex {display: flex; flex-wrap: wrap; margin: 10px; text-align: center; justify-content: center;}
+.pagecap {text-align: center;}
+.homechild1 {padding: 0px 10px 0px 10px;}
+.homechild2 {padding: 0px 10px 0px 10px;}
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+.confimages {
+    display: flex;
+    justify-content: center;
+}
+.awardcard {
+    background-color: #808080;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    color: #FFFFFF;
+}
